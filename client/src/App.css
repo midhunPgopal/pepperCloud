@@ -1,0 +1,141 @@
+.App {
+  height: '100vh';
+  width: '100vw';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  width: 50%;
+  height: 30%;
+  margin: 2%;
+}
+
+.input-container>form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container>form>input {
+  padding: 10px;
+  width: 35%;
+  margin: 15px;
+  box-shadow: 10px 10px 10px lightgray;
+  cursor: pointer;
+  border: 1px solid orange;
+}
+
+.input-container>form>select {
+  padding: 10px;
+  width: 25%;
+  margin: 15px;
+  box-shadow: 10px 10px 10px lightgray;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+.input-container>form>button {
+  padding: 10px;
+  width: 25%;
+  margin: 15px;
+  box-shadow: 10px 10px 10px lightgray;
+  border: 1px solid orange;
+  cursor: pointer;
+  color: black;
+}
+
+.input-container>form>button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.result-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.result-container>form {
+  margin: 5%;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.form-input>input {
+  padding: 10px;
+  width: 80%;
+  margin: 15px;
+  box-shadow: 10px 10px 10px lightgray;
+  cursor: pointer;
+  border: 1px solid rgb(0, 225, 255);
+}
+
+.form-input>label {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: blue;
+}
+
+.form-input>button {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.result-container>.button {
+  padding: 30px;
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button>button {
+  box-shadow: 10px 10px 10px lightgray;
+  border: 1px solid rgb(7, 62, 12);
+  background-color: rgb(7, 62, 31);
+  cursor: pointer;
+  color: white;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.button>button:hover {
+  background-color: rgb(0, 225, 255);
+  color: white;
+}
+
+.previous-form {
+  padding: 10px;
+  width: 20%;
+  box-shadow: 10px 10px 10px lightgray;
+  border: 1px solid rgb(0, 225, 255);
+  cursor: pointer;
+  color: black;
+  margin-top: 15px;
+}
+
+.previous-form:hover {
+  background-color: rgb(0, 225, 255);
+  color: white;
+}
+
+.button-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
